@@ -19,7 +19,7 @@ In this project, we used the **MNIST**(Modified National Institute of Standards 
 We used a convolution neural network (**CNN**) for digit classification. Before the classification, we converted images to a two-dimensional array. Each image size was **28x28** and then, applied zero-padding the feature maps and each image size converted  **32x32** dimensional array. The purpose of using the padding method is that the first layer is learnt nothing in the network. The input layer is built to take **32x32** dimensional and the dimensions of images are passed into the next layer and keep the **28x28** dimensional image.  Moreover,  the images normalized from **0** to **255**. The reason for normalization is to ensure that the batch of images has a mean of **0** and a standard deviation of **1**. The advantage of this is seen in the reduction in the amount of training time.
 
 We used **LeNet-5 CNN** which is made up of **7** layers. The combinations consist of **3** convolutional layers, **2** subsampling layers and **2** fully connected layers. We used **32, 48, and 256** filters respectively for convolutional layers. The output layer was **10**.
-We used adam optimizer and accuracy metric. For fitting the network model,  we practised optimizer **32** rows of training data to do that **30** times through the dataset.  Also, you can see the model summary and results in **Figure 1.3**.
+We used adam optimizer and accuracy metric. For fitting the network model,  we practised optimizer **32** rows of training data to do that **30** times through the dataset.  Also, you can see the model summary and results in **Figure 1.2** and **Figure 1.3**.
 <p align="center"><img src="https://user-images.githubusercontent.com/37912287/113633973-941a7000-9676-11eb-91dc-c1a36971d005.PNG" /></p>
 <p align="center">
   <b>Figure 1.2</b>
@@ -33,7 +33,7 @@ We used adam optimizer and accuracy metric. For fitting the network model,  we p
 
 
 
-Lastly, we evaluated the model on the test data and gained a **99.43** percentage of success. The result is available in below **Figure 1.5**
+Lastly, we evaluated the model on the test data and gained a **99.43** percentage of success. The result is available in below **Figure 1.4**
 
 <p align="center"><img src="https://user-images.githubusercontent.com/37912287/113635048-97aef680-9678-11eb-9cf5-09f812525479.PNG" /></p>
 <p align="center">
