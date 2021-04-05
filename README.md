@@ -5,14 +5,12 @@ Digit Recognizer Using Convolution Neural Network
 In this project, we used the **MNIST**(Modified National Institute of Standards and Technology)  dataset which is available in [Kaggle](kaggle.com).  
 
 **MNIST** dataset contains handwritten numbers images to work for the classification algorithm.  These numbers are between **0** and **9.** Also, you can see these numbers with their labels in **Figure 1.0**. Digit labels are under each image.
-
 <p align="center"><img src="https://user-images.githubusercontent.com/37912287/113613364-ce294900-9659-11eb-9ea7-98f9a8874375.png" /></p>
 <p align="center">
   <b>Figure 1.0</b>
 </p>
 
 **Figure 1.1** shows the distribution of digits.  As you can be seen, each digit has a different sample size.
-
 <p align="center"><img src="https://user-images.githubusercontent.com/37912287/113613655-337d3a00-965a-11eb-9f54-28d34a1f0ac9.png" /></p>
 <p align="center">
   <b>Figure 1.1</b>
