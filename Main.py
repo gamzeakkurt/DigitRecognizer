@@ -124,8 +124,8 @@ model.evaluate(test_data,test_label,verbose=2)
 result =  model.predict(test)
 
 #returns indices of max element for predicted label
-predict_label = np.argmax(result,axis=-1)
+#predict_label = np.argmax(result,axis=-1)
 
 #submission file
-sample_submission['Label'] = predict_label
-sample_submission.to_csv('submission.csv', index=False)
+#sample_submission['Label'] = predict_label
+#sample_submission.to_csv('submission.csv', index=False)
