@@ -1,5 +1,7 @@
 # DigitRecognizer
 Digit Recognizer Using Convolution Neural Network
+
+
 In this project, we used the **MNIST**(Modified National Institute of Standards and Technology)  dataset which is available in [Kaggle](kaggle.com).  
 
 **MNIST** dataset contains handwritten numbers images to work for the classification algorithm.  These numbers are between **0** and **9.** Also, you can see these numbers with their labels in **Figure 1.0**. Digit labels are under each image.
